@@ -1,0 +1,3552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qmt>
+ <project>
+  <uid>{7af6cfea-ae74-4c5b-b7a6-b4d27775b7bc}</uid>
+  <root-package>
+   <instance>
+    <MPackage>
+     <base-MObject>
+      <MObject>
+       <base-MElement>
+        <MElement>
+         <uid>{7f468e1b-b65b-4593-8185-57754b429671}</uid>
+        </MElement>
+       </base-MElement>
+       <name>Labo1_2</name>
+       <children>
+        <handles>
+         <handles>
+          <qlist>
+           <item>
+            <handle>
+             <uid>{890bd90b-163c-447e-b41c-8c2002500c89}</uid>
+             <target>
+              <instance type="MCanvasDiagram">
+               <MCanvasDiagram>
+                <base-MDiagram>
+                 <MDiagram>
+                  <base-MObject>
+                   <MObject>
+                    <base-MElement>
+                     <MElement>
+                      <uid>{890bd90b-163c-447e-b41c-8c2002500c89}</uid>
+                     </MElement>
+                    </base-MElement>
+                    <name>Labo1_2</name>
+                   </MObject>
+                  </base-MObject>
+                  <elements>
+                   <qlist>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{8c54dd5e-787d-48e5-9aaa-21853134d328}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{5a25c41d-f35a-405e-9f61-c29ed3df8db1}</object>
+                         <name>idTarget</name>
+                         <pos>x:440;y:120</pos>
+                         <rect>x:-40;y:-30;w:80;h:60</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{0970c1cc-ad69-4905-acbf-29bf729fb370}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{0f2b5369-38f2-4f5a-93d9-8a0e41b3e4d4}</object>
+                         <name>idTarget_SetInfluence</name>
+                         <pos>x:450;y:460</pos>
+                         <rect>x:-115;y:-205;w:230;h:410</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DInheritance">
+                      <DInheritance>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{2d79136e-55e5-4e6f-a513-1ac76bd52114}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{e786fcbd-be15-494a-ac69-3a6a1173d04a}</object>
+                         <a>{0970c1cc-ad69-4905-acbf-29bf729fb370}</a>
+                         <b>{8c54dd5e-787d-48e5-9aaa-21853134d328}</b>
+                         <name>inherant</name>
+                        </DRelation>
+                       </base-DRelation>
+                      </DInheritance>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{3d60edfa-b94b-49ad-a952-94bcf05425d2}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{a917b970-6466-4a40-86be-92b30e45c8a6}</object>
+                         <name>&lt;&lt;idEntity&gt;&gt;</name>
+                         <pos>x:1115;y:120</pos>
+                         <rect>x:-400;y:-1840;w:800;h:3680</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DInheritance">
+                      <DInheritance>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{2f57c8ef-1ce4-4653-90f5-c4882e32349a}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{a6b1b127-db24-4471-8264-b10575d35a37}</object>
+                         <a>{8c54dd5e-787d-48e5-9aaa-21853134d328}</a>
+                         <b>{3d60edfa-b94b-49ad-a952-94bcf05425d2}</b>
+                         <name>inherant</name>
+                        </DRelation>
+                       </base-DRelation>
+                      </DInheritance>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{09ca7f61-cfa4-4d27-8c26-36dfb2d798e5}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{26a22c07-1fd7-4085-b05d-be68573e7dbd}</object>
+                         <name>idSaveGame</name>
+                         <pos>x:-15;y:290</pos>
+                         <rect>x:-180;y:-385;w:360;h:770</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{5222f005-6bea-48f6-949f-e350a8fd4a03}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{c2f62982-23e2-4114-b7f9-19ffb4d74227}</object>
+                         <name>idRestoreGame</name>
+                         <pos>x:455;y:1185</pos>
+                         <rect>x:-175;y:-410;w:350;h:820</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{1b16943e-0954-42c3-b5b0-c3c8b2d4f8aa}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{b2bafbd0-585d-4edd-b5de-a1f151f284c5}</object>
+                         <a>{0970c1cc-ad69-4905-acbf-29bf729fb370}</a>
+                         <b>{3d60edfa-b94b-49ad-a952-94bcf05425d2}</b>
+                         <name>Assosioation</name>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <navigable>true</navigable>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DDependency">
+                      <DDependency>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{dbbe3b90-d184-466e-a512-944de3d46d2f}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{effc9a77-7fb6-4154-8263-5489039e6836}</object>
+                         <a>{0970c1cc-ad69-4905-acbf-29bf729fb370}</a>
+                         <b>{09ca7f61-cfa4-4d27-8c26-36dfb2d798e5}</b>
+                         <name>Dependance</name>
+                        </DRelation>
+                       </base-DRelation>
+                      </DDependency>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DDependency">
+                      <DDependency>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{92ec4b76-4c93-481a-9e86-ae81f4880e41}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{fc13c472-55be-4c5c-bb9d-0d2b84c15b50}</object>
+                         <a>{0970c1cc-ad69-4905-acbf-29bf729fb370}</a>
+                         <b>{5222f005-6bea-48f6-949f-e350a8fd4a03}</b>
+                         <name>Dependance</name>
+                        </DRelation>
+                       </base-DRelation>
+                      </DDependency>
+                     </instance>
+                    </item>
+                   </qlist>
+                  </elements>
+                  <last-modified>1662483127166</last-modified>
+                  <toolbarid>General</toolbarid>
+                 </MDiagram>
+                </base-MDiagram>
+               </MCanvasDiagram>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{5a25c41d-f35a-405e-9f61-c29ed3df8db1}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{5a25c41d-f35a-405e-9f61-c29ed3df8db1}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>idTarget</name>
+                  <relations>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{a6b1b127-db24-4471-8264-b10575d35a37}</uid>
+                        <target>
+                         <instance type="MInheritance">
+                          <MInheritance>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{a6b1b127-db24-4471-8264-b10575d35a37}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <name>inherant</name>
+                             <a>{5a25c41d-f35a-405e-9f61-c29ed3df8db1}</a>
+                             <b>{a917b970-6466-4a40-86be-92b30e45c8a6}</b>
+                            </MRelation>
+                           </base-MRelation>
+                          </MInheritance>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </relations>
+                 </MObject>
+                </base-MObject>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{0f2b5369-38f2-4f5a-93d9-8a0e41b3e4d4}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{0f2b5369-38f2-4f5a-93d9-8a0e41b3e4d4}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>idTarget_SetInfluence</name>
+                  <relations>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{e786fcbd-be15-494a-ac69-3a6a1173d04a}</uid>
+                        <target>
+                         <instance type="MInheritance">
+                          <MInheritance>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{e786fcbd-be15-494a-ac69-3a6a1173d04a}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <name>inherant</name>
+                             <a>{0f2b5369-38f2-4f5a-93d9-8a0e41b3e4d4}</a>
+                             <b>{5a25c41d-f35a-405e-9f61-c29ed3df8db1}</b>
+                            </MRelation>
+                           </base-MRelation>
+                          </MInheritance>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{d6a4c8a1-4033-474a-93c3-aee82e237b56}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{d6a4c8a1-4033-474a-93c3-aee82e237b56}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{0f2b5369-38f2-4f5a-93d9-8a0e41b3e4d4}</a>
+                             <b>{c2f62982-23e2-4114-b7f9-19ffb4d74227}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <navigable>true</navigable>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{b2bafbd0-585d-4edd-b5de-a1f151f284c5}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{b2bafbd0-585d-4edd-b5de-a1f151f284c5}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <name>Assosioation</name>
+                             <a>{0f2b5369-38f2-4f5a-93d9-8a0e41b3e4d4}</a>
+                             <b>{a917b970-6466-4a40-86be-92b30e45c8a6}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <navigable>true</navigable>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{a4a6581e-45be-44dc-b307-4835240b22f1}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{a4a6581e-45be-44dc-b307-4835240b22f1}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{0f2b5369-38f2-4f5a-93d9-8a0e41b3e4d4}</a>
+                             <b>{26a22c07-1fd7-4085-b05d-be68573e7dbd}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <navigable>true</navigable>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{effc9a77-7fb6-4154-8263-5489039e6836}</uid>
+                        <target>
+                         <instance type="MDependency">
+                          <MDependency>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{effc9a77-7fb6-4154-8263-5489039e6836}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <name>Dependance</name>
+                             <a>{0f2b5369-38f2-4f5a-93d9-8a0e41b3e4d4}</a>
+                             <b>{26a22c07-1fd7-4085-b05d-be68573e7dbd}</b>
+                            </MRelation>
+                           </base-MRelation>
+                          </MDependency>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{fc13c472-55be-4c5c-bb9d-0d2b84c15b50}</uid>
+                        <target>
+                         <instance type="MDependency">
+                          <MDependency>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{fc13c472-55be-4c5c-bb9d-0d2b84c15b50}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <name>Dependance</name>
+                             <a>{0f2b5369-38f2-4f5a-93d9-8a0e41b3e4d4}</a>
+                             <b>{c2f62982-23e2-4114-b7f9-19ffb4d74227}</b>
+                            </MRelation>
+                           </base-MRelation>
+                          </MDependency>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </relations>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{c16b2cde-a2e0-4ecc-b6da-c692430701e8}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>idTarget_SetInfluence( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b40a9ab2-f18c-4b67-818a-a2cc33faec99}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>void Save( idSaveGame *savefile )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ddc8a67e-d769-46a2-9ed4-8612d4697724}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void Restore( idRestoreGame *savefile )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{27393a13-4a4d-4f4b-bf8d-f16a8c7d20ad}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void Spawn( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{af0b9345-1174-4e2c-aacb-fc702c3caac2}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void Event_Activate( idEntity *activator )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b9e756ad-d8b5-430e-9417-e1bb0ca2263a}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void Event_RestoreInfluence()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0c46d8a7-a6b8-419c-bbfd-18573f8edc7b}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void Event_GatherEntities()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6ae8dd5e-7b99-471f-a665-c9fc3f5aae06}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void Event_Flash( float flash, int out )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ea11140f-5ed5-4548-997c-b6e1629aca2c}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void Event_ClearFlash( float flash )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f69f0caf-2c86-4634-862e-ce3dfad07d43}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void Think( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{3da94da4-4c82-4ffe-86ba-d36af7b91007}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>lightList : idList&lt;int&gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7f9d0a63-c54a-4911-98c0-567217a68b61}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>guiList : idList&lt;int&gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0259173e-d43f-4ffc-9fd1-4a15efb5ba8b}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>soundList : idList&lt;int&gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{37fb9d7d-fd47-4f95-a206-bc467a4b8479}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>genericList : idList&lt;int&gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{59b4ec10-628c-4def-9f85-99c637cb79e1}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>flashIn : float</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{616c41e6-e6c6-4fa2-b449-6a39177f7ba6}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>flashOut : float</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a14e6a6e-6987-44e0-b921-d6b9a6574e32}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>delay : float</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0dff4151-6e64-4cae-83e7-1c41c45d9b41}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>flashInSound : idStr</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{76287fbe-4ccf-4668-97e0-42fa7fffb4f3}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>flashOutSound : idStr</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{50d4d1bd-3caa-43f4-8f86-1b0388b12014}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>switchToCamera : idEntity *</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f59c84b1-da3a-4a6b-9efe-930be941660d}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>fovSetting : idInterpolate&lt;float&gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4f5ada26-d5f1-4341-838c-b4f138db1860}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>soundFaded : bool</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c355304a-5698-4a94-a0e7-676136d5936d}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>restoreOnTrigger : bool</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{a917b970-6466-4a40-86be-92b30e45c8a6}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{a917b970-6466-4a40-86be-92b30e45c8a6}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>&lt;&lt;idEntity&gt;&gt;</name>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{329b47d3-9776-44b1-bdbe-5f37ce6d411e}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>MAX_PVS_AREAS : static const int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6262bfad-3991-4ac4-bd74-057bdde73a66}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>entityNumber : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0921e111-d2b4-4cae-9729-0a1d9f019b42}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>entityDefNumber : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{59220abe-623f-488d-9541-ad665535ebc8}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>spawnNode : idLinkList&lt;idEntity&gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b4ff794d-80c9-40cc-aa4d-ce9fbe93f55d}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>activeNode : idLinkList&lt;idEntity&gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7fca9172-5a1d-43d1-825b-19797f83608b}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>snapshotNode : idLinkList&lt;idEntity&gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f1738eca-f068-455d-a7ba-7048e544d622}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>snapshotSequence : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2d8ca694-aeba-45d5-b391-9d3cd182a8c6}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>snapshotBits : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2ac140cf-60d1-4c76-99fc-43ba2618dede}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>name : idStr</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a622406c-01cf-4b31-b1be-89c57bef0e29}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>spawnArgs : idDict</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e3eb83fa-c6dc-4152-b197-cf398486aee9}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>scriptObject : idScriptObject</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{683f5145-de2f-4cac-8beb-c32cc26c4fe3}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>thinkFlags : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{dd2e2320-f10b-4d7e-939e-dad10692333e}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>dormantStart : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{bddd8d8b-d047-4ee2-a6c5-d0d914b7f8b1}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>cinematic : bool</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ccf77eb5-a0d4-45fd-a436-ddc7a8db5cf2}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>renderView : renderView_t *</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d246f43a-492d-4832-a700-3231127e3232}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>cameraTarget : idEntity *</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2a2d8b78-9fd1-4f93-88da-10f53e6b9fe9}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>targets : idList&lt; idEntityPtr&lt;idEntity&gt; &gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{06a89d29-5944-4d31-80c2-359cc2f370fc}</uid>
+                    <visibility>1</visibility>
+                    <type>1</type>
+                    <declaration>health : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{360c6ab6-ba59-4eb9-a2bd-be5899077e80}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>idEntity()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{3a92072f-c45e-42c2-8a27-76ce160de509}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>~idEntity()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{98fd0692-3320-431c-89c3-0c2fb55caec7}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					Spawn( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d7c6e735-086d-4458-bffa-520e67cd6147}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>void					Save( idSaveGame *savefile )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{47e74565-bb67-4272-8d75-78f3d064bb05}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					Restore( idRestoreGame *savefile )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{49b135e8-91b5-43f2-af23-a4ae7f787cf5}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>const char *			GetEntityDefName( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{58566d26-38a2-4499-bec5-f8630cc5b76f}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					SetName( const char *name )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ca76fbbe-7fd4-407d-9fa4-efbe7cade6f2}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>const char *			GetName( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{8a0ca9cb-0de6-4496-b983-e03d1dc243f6}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			UpdateChangeableSpawnArgs( const idDict *source )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5ceb5341-fc27-4129-8c52-88cd657026d2}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>renderView_t *	GetRenderView()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5977d4f9-fef2-48eb-8d6f-554bcb509ade}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			Think( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ed51d326-50d1-43d0-a811-b8a62072916b}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>bool					CheckDormant( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5313659e-8b01-4112-8b91-8b6898149592}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			DormantBegin( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b3899add-7221-451a-9e79-cdcfbad69abd}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			DormantEnd( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f0cf9ab9-f3ef-43bf-a2c1-9e0a36e7055d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>bool					IsActive( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{3af83ed6-6255-4bce-892f-150cc65c7e02}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					BecomeActive( int flags )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{59a32917-7e49-41af-8cda-854b8691e072}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					BecomeInactive( int flags )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{efc7b468-967a-4d1a-8297-a7e539d381ad}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					UpdatePVSAreas( const idVec3 &amp;pos )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{dd8fb1a7-d35d-4b3f-a013-2cd34005ad8b}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			Present( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{947dd979-6bc7-4bf6-8e2e-d77c5fdf7d60}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>renderEntity_t *GetRenderEntity( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0cf2fc43-6fc8-4bfb-8153-1d16aa5909dc}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>int				GetModelDefHandle( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{caf2e971-3278-4330-a53c-0ab9942f4890}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			SetModel( const char *modelname )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4fec44c2-9973-4778-8972-f0150d0af143}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					SetSkin( const idDeclSkin *skin )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{86b4d739-5266-414d-bd36-29085e5a44a3}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>const idDeclSkin *		GetSkin( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{82ac5eef-be76-4c9e-91e5-a61e6de276a0}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					SetShaderParm( int parmnum, float value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{8589e22a-0ed5-400a-b0a8-a2b6f7536f7a}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			SetColor( float red, float green, float blue )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c2016f06-8e95-419e-9a0d-e51790dc9f97}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			SetColor( const idVec3 &amp;color )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d1aa83cd-f0a8-4689-941f-24cf64d367d6}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>5</properties>
+                    <declaration>void			GetColor( idVec3 &amp;out )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a6d3976d-7244-4f78-ae40-5bcb715981c8}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			SetColor( const idVec4 &amp;color )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{97750605-1bd0-4511-affa-0926c174d731}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>5</properties>
+                    <declaration>void			GetColor( idVec4 &amp;out )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{230328f6-e013-413a-97e8-4455ed6a639c}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			FreeModelDef( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a4a3a212-7cc8-4b2a-bf40-74eba09a47e9}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			FreeLightDef( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c60e333b-7ffd-41f0-8391-dc4f9e951f8f}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			Hide( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0541691b-5a9d-4338-85e6-176c9577e1b5}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			Show( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0d4ebf27-d598-4d26-ad89-be90454a146d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>bool					IsHidden( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{745bbfd3-3145-48e9-9928-fac9b462540d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					UpdateVisuals( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2b1c3d6a-19e2-4580-b955-aea262a38c68}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					UpdateModel( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5f48ac46-0939-4ddd-b735-9c21f9bbba77}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					UpdateModelTransform( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{404002f6-d9f0-4e56-acf5-cb57b29809e9}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			ProjectOverlay( const idVec3 &amp;origin, const idVec3 &amp;dir, float size, const char *material )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d7116454-80bf-4520-b29a-fc63490725c7}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>int						GetNumPVSAreas( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{252667aa-3055-46af-826c-aed5adc69d0d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>const int *				GetPVSAreas( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7740b2d9-76f6-406c-ae20-ff169f1bc524}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ClearPVSAreas( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{db64c527-9770-4cad-8b6b-f606877b9795}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>bool					PhysicsTeamInPVS( pvsHandle_t pvsHandle )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{099bbc31-933c-4b23-a811-87e2499087ce}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>bool			UpdateAnimationControllers( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7d849e69-13b4-4a23-8b51-7f91fbdbaff2}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>bool					UpdateRenderEntity( renderEntity_s *renderEntity, const renderView_t *renderView )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e0205612-ef45-444d-8718-59495cf62fa9}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>64</properties>
+                    <declaration>bool				ModelCallback( renderEntity_s *renderEntity, const renderView_t *renderView )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c5cb2e91-89d9-493f-a019-6b118b7c72d3}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>idAnimator *	GetAnimator( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5c664601-6334-4763-a541-b903ad44edb3}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>5</properties>
+                    <declaration>bool			CanPlayChatterSounds( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{cea3065b-7b34-43a7-adf4-fa7b37c611e7}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>bool					StartSound( const char *soundName, const s_channelType channel, int soundShaderFlags, bool broadcast, int *length )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c6cde204-25b2-46a7-be9a-4a3eb3c00b3d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>bool					StartSoundShader( const idSoundShader *shader, const s_channelType channel, int soundShaderFlags, bool broadcast, int *length )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b2e26f60-00fe-4703-83e7-ff39605e5286}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					StopSound( const s_channelType channel, bool broadcast )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{9f9b1026-b961-4300-b405-f48d6c767303}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					SetSoundVolume( float volume )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a280f80d-3be2-4c14-9870-4fa56fa6b65b}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					UpdateSound( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4567263b-3801-414f-a0d0-e99524e7de0d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>int						GetListenerId( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c9cfea07-edff-4db2-9bcd-2dc279751653}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>idSoundEmitter *		GetSoundEmitter( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{3cb425f3-bf82-4e8a-ac9a-2e301466b622}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					FreeSoundEmitter( bool immediate )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e7545d3c-0207-40fe-84ab-e747a0a99683}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			PreBind( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0613ab4a-9792-41c7-ac75-20cd2affc2c6}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			PostBind( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{8cf8f0d9-74f8-4092-9591-1f19ecd12c57}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			PreUnbind( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f9a3df1f-8bb0-488b-b129-04ce1937b6d3}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			PostUnbind( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{76a2323b-7182-423a-b7de-c85cc2869d00}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					JoinTeam( idEntity *teammember )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{caff24aa-773d-4b64-9036-4662f50ef2ce}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					Bind( idEntity *master, bool orientated )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4546cf9b-30c2-4c56-a13c-44d9d8d4f1e7}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					BindToJoint( idEntity *master, const char *jointname, bool orientated )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{60125446-d2aa-44c7-92a4-3f02c5124680}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					BindToJoint( idEntity *master, jointHandle_t jointnum, bool orientated )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{724dc0ed-761a-4a4e-8164-f9bc7aeffb15}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					BindToBody( idEntity *master, int bodyId, bool orientated )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d37ac397-6769-485d-829f-d16a32384b33}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					Unbind( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{28a0e512-e16c-4d6e-805f-69cef3ba4cb3}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>bool					IsBound( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e05be28a-c51e-4a6e-abd5-e1088ec65efe}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>bool					IsBoundTo( idEntity *master )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f9863f1f-b17e-4aec-824e-720ab73383c5}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>idEntity *				GetBindMaster( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{915e85e9-e0c8-45d5-be13-841719c9889e}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>jointHandle_t			GetBindJoint( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{714d08b7-eb17-4b6c-bd2d-2d854ccb3b7e}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>int						GetBindBody( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{9370e58b-c4d8-45b7-b99a-3877d20ae2f4}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>idEntity *				GetTeamMaster( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e5c794cb-6164-446d-8eee-8f9cf062878d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>idEntity *				GetNextTeamEntity( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{bae1f7a8-27b4-43ea-b33a-59c04d45c573}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ConvertLocalToWorldTransform( idVec3 &amp;offset, idMat3 &amp;axis )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{18a3fd27-b30f-4e31-baaf-52f8f95f79dd}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>idVec3					GetLocalVector( const idVec3 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{56d4fdc6-23bd-4c21-8a27-89e8817401c0}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>idVec3					GetLocalCoordinates( const idVec3 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{28b42d3b-0946-4999-8b17-68a890aebe02}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>idVec3					GetWorldVector( const idVec3 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{41250481-798b-4876-a1a8-75332a736ed4}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>idVec3					GetWorldCoordinates( const idVec3 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{62dfe7e4-d26b-43ee-affe-7a294f93bb05}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>bool					GetMasterPosition( idVec3 &amp;masterOrigin, idMat3 &amp;masterAxis )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ab3350c7-7b8d-4d39-a6b7-271b0f9d184d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>void					GetWorldVelocities( idVec3 &amp;linearVelocity, idVec3 &amp;angularVelocity )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{35164719-c3db-4cec-ba32-b77a48aa6d42}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					SetPhysics( idPhysics *phys )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{cdfd106d-dcb0-413a-94a0-6993cc9e8c16}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>idPhysics *				GetPhysics( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{03c92bf9-acf0-4a00-9cc5-a801843bbb82}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					RestorePhysics( idPhysics *phys )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{67ef3503-4368-4123-9875-9f24911ee0a9}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>bool					RunPhysics( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c34256d5-9992-4932-a6e8-808ae2eb5f29}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					SetOrigin( const idVec3 &amp;org )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7840b6bb-f8d0-439d-a528-cabb1b240058}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					SetAxis( const idMat3 &amp;axis )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6136325a-8554-4d97-bb0e-52146d71ff88}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					SetAngles( const idAngles &amp;ang )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{df7c02ea-3c88-4686-a812-1be964bc6e27}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>bool					GetFloorPos( float max_dist, idVec3 &amp;floorpos )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{06481d59-29d0-4a97-8340-930ed176fd61}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>bool			GetPhysicsToVisualTransform( idVec3 &amp;origin, idMat3 &amp;axis )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{587cc5e6-0d7f-449d-8847-e87d88426a58}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>bool			GetPhysicsToSoundTransform( idVec3 &amp;origin, idMat3 &amp;axis )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ba3f0bad-8209-490c-8400-6779b5a4382c}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>bool			Collide( const trace_t &amp;collision, const idVec3 &amp;velocity )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1f947e77-1dba-4886-baf5-5394839ad16c}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			GetImpactInfo( idEntity *ent, int id, const idVec3 &amp;point, impactInfo_t *info )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b8da93e7-d90e-4f5a-8ee6-351615d5bd75}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			ApplyImpulse( idEntity *ent, int id, const idVec3 &amp;point, const idVec3 &amp;impulse )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5edf6ae8-4e73-4335-aade-54978e557cec}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			AddForce( idEntity *ent, int id, const idVec3 &amp;point, const idVec3 &amp;force )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{049931b7-c264-4b1e-bc5f-f61de8c54882}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			ActivatePhysics( idEntity *ent )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4be02972-b6a8-4273-a03a-bafa01421b5f}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>5</properties>
+                    <declaration>bool			IsAtRest( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{87705a8a-bf86-45af-aedc-54611fb83088}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>5</properties>
+                    <declaration>int				GetRestStartTime( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{85d5e1c1-c8ec-45ec-81d7-a4555ebc8466}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			AddContactEntity( idEntity *ent )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a90e06f7-ee60-477a-9718-2f9a869a1d55}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			RemoveContactEntity( idEntity *ent )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{cf3ba694-eae3-4aa5-8a55-b0a1a0f9b687}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>5</properties>
+                    <declaration>bool			CanDamage( const idVec3 &amp;origin, idVec3 &amp;damagePoint )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ed1a902e-f6c9-46f0-9fd4-f4ddf6ab1ac0}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			Damage( idEntity *inflictor, idEntity *attacker, const idVec3 &amp;dir, const char *damageDefName, const float damageScale, const int location )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{980b2dbd-55eb-4650-b433-c92cd09818f1}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			AddDamageEffect( const trace_t &amp;collision, const idVec3 &amp;velocity, const char *damageDefName )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f84ed3e1-1903-4d60-a0fa-c5490aaefe1d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			DamageFeedback( idEntity *victim, idEntity *inflictor, int &amp;damage )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{19f5d8c4-a05f-4337-87c4-14bf44a357c6}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>bool			Pain( idEntity *inflictor, idEntity *attacker, int damage, const idVec3 &amp;dir, int location )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ae348f5a-4c1e-4899-ae8a-8a4593e79f15}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			Killed( idEntity *inflictor, idEntity *attacker, int damage, const idVec3 &amp;dir, int location )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{3a809b3a-4b33-40d6-9502-6abd8537e0a5}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>5</properties>
+                    <declaration>bool			ShouldConstructScriptObjectAtSpawn( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{9b9abf86-5dcd-4b17-b41a-b0018592a4d8}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>idThread *		ConstructScriptObject( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{664ac9af-bc5a-4e02-af7a-d9a7d10480d3}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			DeconstructScriptObject( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7c24d789-6b16-46a5-b33b-bb02df5a9e49}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					SetSignal( signalNum_t signalnum, idThread *thread, const function_t *function )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{51ededd1-b78e-47e7-97d7-9c637a30da4d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ClearSignal( idThread *thread, signalNum_t signalnum )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{afe41430-5b19-4e62-8fe7-8a4f798c06d0}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ClearSignalThread( signalNum_t signalnum, idThread *thread )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4913d5d8-c29f-478e-b45d-bb121186f21f}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>bool					HasSignal( signalNum_t signalnum )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7cb8a096-16b6-412f-b6cf-58c8a09dcc8e}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					Signal( signalNum_t signalnum )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4f5992a2-7020-4458-aca1-3e2d33c97b82}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					SignalEvent( idThread *thread, signalNum_t signalnum )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4876947a-0da3-4a24-9821-93340058f528}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					TriggerGuis( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f0f53061-7978-4e81-b706-eb2ccd85a682}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>bool					HandleGuiCommands( idEntity *entityGui, const char *cmds )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7f92fb5f-6400-4004-84e2-1865bc392042}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>bool			HandleSingleGuiCommand( idEntity *entityGui, idLexer *src )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d7fe11ba-bd2e-4414-9ac3-1fa6548d47de}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					FindTargets( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{dcff0b57-24e6-422b-9ed5-39becf304b47}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					RemoveNullTargets( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d0913db0-a2ac-4ad4-b8cd-78cff6f4fc46}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>void					ActivateTargets( idEntity *activator )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f0628551-17c8-4af2-83a9-a0bbb201edcc}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			Teleport( const idVec3 &amp;origin, const idAngles &amp;angles, idEntity *destination )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{53f41006-eda6-41f8-81ac-24841d4d2833}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>bool					TouchTriggers( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a50a2c0d-1aad-4de9-89c8-1a2a5cc923aa}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>idCurve_Spline&lt;idVec3&gt; *GetSpline( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{86222d7d-57ad-4830-ab8a-3c367b76a334}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			ShowEditingDialog( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5a7c996d-c881-48fa-8364-a6dd708de23a}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			ClientPredictionThink( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6dafbb81-6ba1-4596-a9b8-11e9e6cc7613}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>5</properties>
+                    <declaration>void			WriteToSnapshot( idBitMsgDelta &amp;msg )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{337b7f3e-c21e-467c-b212-5ca6fd99bda1}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>void			ReadFromSnapshot( const idBitMsgDelta &amp;msg )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d5690da7-3b13-4105-864e-9a0b6eb8b2f6}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>bool			ServerReceiveEvent( int event, int time, const idBitMsg &amp;msg )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a7ebeb49-8d6e-44f4-8493-a002159d60ff}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>1</properties>
+                    <declaration>bool			ClientReceiveEvent( int event, int time, const idBitMsg &amp;msg )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{92630dce-562f-4ca6-bc7f-a5d293e35cbb}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>void					WriteBindToSnapshot( idBitMsgDelta &amp;msg )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7c1d40a1-3dcb-4d0f-bb50-70b9231808dc}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadBindFromSnapshot( const idBitMsgDelta &amp;msg )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{29d6f37a-876e-4a4b-89eb-ad47d40f0316}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>void					WriteColorToSnapshot( idBitMsgDelta &amp;msg )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6680ecb4-1484-40f4-8790-8fb1f2a8775e}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadColorFromSnapshot( const idBitMsgDelta &amp;msg )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{8845de4d-9fda-4292-b385-f3eb2ca3b4f3}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>void					WriteGUIToSnapshot( idBitMsgDelta &amp;msg )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e982b6b7-6f96-45a6-8e38-7efc79a0b55e}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadGUIFromSnapshot( const idBitMsgDelta &amp;msg )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6ec51475-15f8-493b-8931-cd543066950e}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>void					ServerSendEvent( int eventId, const idBitMsg *msg, bool saveEvent, int excludeClient )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{bef0a6d9-2673-44eb-9160-8c7cbb944ffb}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>void					ClientSendEvent( int eventId, const idBitMsg *msg )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2ec8eb01-3cec-401e-8503-e5e4ec6232ae}</uid>
+                    <visibility>2</visibility>
+                    <type>1</type>
+                    <declaration>renderEntity : renderEntity_t</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ec5fd5cc-e2d8-4c03-a762-dbc125ffb57e}</uid>
+                    <visibility>2</visibility>
+                    <type>1</type>
+                    <declaration>modelDefHandle : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{697e020c-5769-467d-89ee-74b25deb75a5}</uid>
+                    <visibility>2</visibility>
+                    <type>1</type>
+                    <declaration>refSound : refSound_t</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{fa89c258-c9c0-46bd-9a10-ca46099e9f45}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>defaultPhysicsObj : idPhysics_Static</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{29282966-f997-4ea0-9d66-18b81a153696}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>physics : idPhysics *</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f4bb3cc6-c7f0-4e7d-83fa-a0cfba8a88db}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>bindMaster : idEntity *</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{fd36d54a-5d54-41bf-8ca6-32e07e1b65f2}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>bindJoint : jointHandle_t</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{254772ce-7df9-450e-93a8-7981e3e5c7ff}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>bindBody : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{725f5377-275d-490f-95e7-2e674e63efdc}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>teamMaster : idEntity *</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{8c557013-83dd-435a-9ac0-0811d6974427}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>teamChain : idEntity *</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{dd799305-880f-44b1-8bbd-97e4d8751e31}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>numPVSAreas : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5be5a3c5-8848-4cc3-9111-eeb04419bf31}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>PVSAreas[MAX_PVS_AREAS] : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{92497929-8390-4f48-aaec-a418f8deadcd}</uid>
+                    <visibility>4</visibility>
+                    <type>1</type>
+                    <declaration>signalList_t *</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{52496fb6-d22f-444b-afce-562c110c9fc8}</uid>
+                    <visibility>4</visibility>
+                    <type>1</type>
+                    <declaration>mpGUIState : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{9257a640-1cc4-4b51-9902-72904fd2cc37}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					FixupLocalizedStrings()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c0693786-46eb-477b-9c20-934724a8eeb0}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>bool					DoDormantTests( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2d6c22e4-a9ae-4ce9-837d-b5609c6fce6c}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					InitDefaultPhysics( const idVec3 &amp;origin, const idMat3 &amp;axis )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{401844b4-59c0-4b9d-b97e-9ce15aaff305}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					UpdateFromPhysics( bool moveBack )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{190c0db1-5824-4714-aa10-5cf5e6af5ede}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>bool					InitBind( idEntity *master )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b5b7cda1-d8bc-41b5-9d25-0f2450f45133}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					FinishBind( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{10891fb9-ed2f-46eb-90b8-9c8fa7a20707}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					RemoveBinds( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ede7ccf5-3351-4ba7-bebd-a29ecef88980}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					QuitTeam( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f9b1842f-44e3-443c-b39d-25dc95ef0945}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					UpdatePVSAreas( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{fcb1dd9a-117c-46d1-b750-71c050841d33}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetName( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{863b845f-95c0-48a8-a1d4-1fea23bdb39c}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetName( const char *name )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{684d4e3e-70d5-4588-82ae-c78f7d3c7f66}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_FindTargets( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1c9f179c-598c-4444-91c8-c92727d5ebbe}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_ActivateTargets( idEntity *activator )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{86a037c2-77d8-4084-af5c-0af9fbd767b7}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_NumTargets( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c395fb3a-24f1-44f5-b248-6b2e135c3f69}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetTarget( float index )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5fc795b9-c8cd-4c2b-8f4b-922f064409d6}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_RandomTarget( const char *ignore )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2fd8772d-6c71-42c4-9ada-ec787be42775}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_Bind( idEntity *master )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1680a112-2be0-4037-a086-f03109304eae}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_BindPosition( idEntity *master )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{dc800ade-ba81-481d-ba89-98db554d6a87}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_BindToJoint( idEntity *master, const char *jointname, float orientated )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2f3bbe20-0473-4c89-8a60-785eff919266}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_Unbind( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e3a67d0e-835e-4e5f-aa55-7ebb2d00f5bb}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_RemoveBinds( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b5a718bd-1e91-4ea3-a8d9-56332e9820f2}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SpawnBind( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f3f0bc93-f1ce-4bcc-b4c6-94a165d061d1}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetOwner( idEntity *owner )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0a406dbd-3f8d-46e9-988c-e61124d46bcf}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetModel( const char *modelname )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2505bd5b-2dac-46a5-9d6f-709c13c940ba}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetSkin( const char *skinname )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b9e5617c-38b8-4eba-a80f-b6de35ac6559}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetShaderParm( int parmnum )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{dfc8c162-d141-4710-9a99-baaace378beb}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetShaderParm( int parmnum, float value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d050361b-c2b2-495c-83f3-14291b872465}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetShaderParms( float parm0, float parm1, float parm2, float parm3 )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{96ece344-b607-4138-b113-20cfea1bd950}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetColor( float red, float green, float blue )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{cfdf6c85-d763-4ab5-9f3c-eab5480030c2}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetColor( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{eb3be8e1-d27c-4467-bd4c-f4bc6df1bd5b}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_IsHidden( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{76563f8d-f2a6-41c1-998d-182a7ea71a1a}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_Hide( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{031ecf39-8a7e-4f5f-9ed8-159ff55f60be}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_Show( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{616c6f08-0f8c-4ecf-b4de-a819ad101063}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_CacheSoundShader( const char *soundName )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0d0502a2-80db-4c40-8ed0-baca35302825}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_StartSoundShader( const char *soundName, int channel )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6b8d08d9-2abf-4799-b972-915518e44759}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_StopSound( int channel, int netSync )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6566c091-73f0-425d-aaa6-7d8a718de307}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_StartSound( const char *soundName, int channel, int netSync )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f2c3276b-71d9-4533-b171-97f20eeb1b4c}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_FadeSound( int channel, float to, float over )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7dc4184c-068e-45d7-827a-435b39ada44f}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetWorldOrigin( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6f8dd342-6812-4f44-8e47-995e2490dfd5}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetWorldOrigin( idVec3 const &amp;org )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{48b17a8a-2fa1-4701-b5d1-e2b231a92df5}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetOrigin( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ceddca92-2f3c-4dc1-9685-c66619590268}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetOrigin( const idVec3 &amp;org )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{59a46561-91ed-45b9-9f2e-3c4cc661d113}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetAngles( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2a4972ca-acfb-4f9e-a98b-6a30a394c76c}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetAngles( const idAngles &amp;ang )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1368a530-a964-4524-8575-286827a2a30b}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetLinearVelocity( const idVec3 &amp;velocity )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{60105bad-ad34-40ed-9a25-856aa75c6200}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetLinearVelocity( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{cbb6bdfa-780f-4c77-a133-9c4ba3e6b8a2}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetAngularVelocity( const idVec3 &amp;velocity )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{473896e8-4314-44d8-afbf-b4d39d1a3b2e}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetAngularVelocity( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{00cef167-1225-487f-a92f-02dec34eab14}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetSize( const idVec3 &amp;mins, const idVec3 &amp;maxs )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{46c80c66-1e5b-4086-80be-fe5061eecf97}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetSize( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0bb6ab8b-4117-430b-ad5e-5e657c43602a}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetMins( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{34397452-7ab5-4e86-9c98-7b1595ab5e2b}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetMaxs( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{8c21e6b1-3e69-4ea8-8b61-7ba1f655263e}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_Touches( idEntity *ent )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a69577b0-eee8-4d2d-8105-0054c21939af}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetGuiParm( const char *key, const char *val )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{fcab9cf6-ba78-4f74-a58d-1b17ed54b714}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetGuiFloat( const char *key, float f )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b6320cd2-3d89-46dc-b45e-5d86d1c6793e}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetNextKey( const char *prefix, const char *lastMatch )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{6f97f339-bc8e-4a52-923e-10e3861d786f}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetKey( const char *key, const char *value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4ecb3ef5-f67a-47b9-b55d-051311d6e9ca}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetKey( const char *key )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2655777c-27ee-411e-8a47-cd5f2644fb23}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetIntKey( const char *key )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7ac753a8-13d0-4f68-875b-9b83cad0467f}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetFloatKey( const char *key )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{90adf907-697a-416f-80a0-72e22c43f6e8}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetVectorKey( const char *key )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{18692a60-2ae4-436a-b558-ca10d61b1b2b}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_GetEntityKey( const char *key )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{46146a7c-4d0c-4025-b7bd-f0603fd12a61}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_RestorePosition( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{19f984ea-49ff-4119-b2ea-2099de10a745}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_UpdateCameraTarget( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2ac6d57c-aed5-4df7-ba8a-4e4274be3d01}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_DistanceTo( idEntity *ent )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0ec43da2-2125-44b1-be1b-6b8a128bb52c}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_DistanceToPoint( const idVec3 &amp;point )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{85b474a8-53b0-4f5b-936d-95604836688c}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_StartFx( const char *fx )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{07da5997-eba4-4917-afc9-c7e6c7763aa7}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_WaitFrame( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ad2a1f11-56fc-4e67-af46-a36cb4cd465d}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_Wait( float time )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{14b3ff0e-73ca-4446-9708-ac46c44eae75}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_HasFunction( const char *name )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{15400cdf-7155-4585-9208-b369c4a63e53}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_CallFunction( const char *name )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{32b52cec-7ac8-4ac5-93c4-2b96eca717fd}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					Event_SetNeverDormant( int enable )</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{26a22c07-1fd7-4085-b05d-be68573e7dbd}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{26a22c07-1fd7-4085-b05d-be68573e7dbd}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>idSaveGame</name>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{c5b29e30-cd47-4d93-a157-b244860c5479}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>idSaveGame( idFile *savefile )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{37d24130-27ac-4ba8-9940-3e534c977768}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>~idSaveGame()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{202dd3d6-ad5a-4b28-9d46-97b2341ea8f1}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					Close( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c1bc55e4-29da-4be5-9270-2973deb898fd}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					AddObject( const idClass *obj )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e9408b15-7c35-4b3e-ad00-414361764922}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteObjectList( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a5956615-11a5-4566-9b86-f4f7e015a64c}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					Write( const void *buffer, int len )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ed7b4b9e-69fd-4193-ae75-a47bf1c8ff53}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteInt( const int value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{843ac80c-3330-42b1-b52a-b74258514ba1}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteJoint( const jointHandle_t value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{295f6d96-036a-47c7-a128-1d7ec0a989d9}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteShort( const short value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{26c8fca6-494f-486d-878e-1ee5c505d4ec}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteByte( const byte value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0ca486f3-e92f-4094-8f54-ced4f0224e00}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteSignedChar( const signed char value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7ddccdaa-1a07-4847-b135-0f851799fb12}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteFloat( const float value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e78c63d8-b65e-42d0-b79b-135c1af687ca}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteBool( const bool value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{dc0615bb-88c2-4548-9ec4-5162478249c5}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteString( const char *string )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{9d5081a2-d21e-4def-b20f-1efd82098d66}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteVec2( const idVec2 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{69d6bbeb-3c38-4c02-adc6-84836c5383f1}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteVec3( const idVec3 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4d53a12f-6794-47ac-a303-14e9d188d115}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteVec4( const idVec4 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e9db751e-2b92-4927-9b98-61503dab22be}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteVec6( const idVec6 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{61e53605-9957-43cc-9a4a-c24d6f8bb563}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteWinding( const idWinding &amp;winding )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2676da00-0c01-4f26-b5c6-171c411c9ad8}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteBounds( const idBounds &amp;bounds )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e7fd9632-af0c-4d1f-8416-146153a7f673}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteMat3( const idMat3 &amp;mat )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{599717e2-4ece-4589-9dd0-b1e6e2febbe9}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteAngles( const idAngles &amp;angles )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{304bc0ab-e4d6-4521-8963-52f5cfdd862c}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteObject( const idClass *obj )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d65e187c-747c-46b0-968d-6878ae16a77b}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteStaticObject( const idClass &amp;obj )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c39faefa-9d30-4b5a-8bf0-6877fc0e4090}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteDict( const idDict *dict )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{8a98e814-a0e0-4c19-98b0-64959aa0e24a}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteMaterial( const idMaterial *material )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c912460e-d8e5-4a2b-8a76-48692a1a6122}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteSkin( const idDeclSkin *skin )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{87738324-0b21-4fc9-a9df-a7f8037c6253}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteParticle( const idDeclParticle *particle )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d3d61c03-218c-4447-a95d-872bc02eeb21}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteFX( const idDeclFX *fx )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{021db95b-d25d-43c4-93d0-554a023d5ea1}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteSoundShader( const idSoundShader *shader )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{bb77eb50-8a67-4be5-afe8-ddd03076d661}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteModelDef( const class idDeclModelDef *modelDef )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{56bd5587-66af-4879-9107-24d5ca490dd0}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteModel( const idRenderModel *model )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e581f50c-c6d1-471f-87e0-af3a76f6c4e4}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteUserInterface( const idUserInterface *ui, bool unique )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{122d3743-8e4e-49b9-97fb-60d4001df1b4}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteRenderEntity( const renderEntity_t &amp;renderEntity )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{09dbe601-6907-4521-9c50-c375a2248734}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteRenderLight( const renderLight_t &amp;renderLight )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{9205c7aa-51d2-4271-8a9e-3b89f25a263b}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteRefSound( const refSound_t &amp;refSound )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{389c605b-30c3-4e77-844b-0f64dc26151c}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteRenderView( const renderView_t &amp;view )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4de2ea68-5b83-4757-97e4-6c99c06419b2}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteUsercmd( const usercmd_t &amp;usercmd )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a32ce866-cdcf-46a0-9162-f5f32b6d6ae7}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteContactInfo( const contactInfo_t &amp;contactInfo )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{2d51a202-11c5-4559-921d-f72f83fc3a93}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteTrace( const trace_t &amp;trace )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{fbc248dd-a5ab-4394-b3d9-a7677505f2fc}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteTraceModel( const idTraceModel &amp;trace )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f7c54461-ab74-4e0f-8150-5d3515be8ada}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteClipModel( const class idClipModel *clipModel )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{32ab4708-d1a0-4fd9-9cfc-db76cfb565ca}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteSoundCommands( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5d1bf7f9-35a9-44b7-bfb1-cb7247c6ec83}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					WriteBuildNumber( const int value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7eb7da21-186b-436b-98be-487d484f8a81}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>file : idFile*</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{3d4c61f7-4d2d-4771-b087-0d7ea72b198b}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>objects : idList&lt;const idClass *&gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1aabe6a4-a935-4211-9246-a276bde4790a}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					CallSave_r( const idTypeInfo *cls, const idClass *obj )</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{c2f62982-23e2-4114-b7f9-19ffb4d74227}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{c2f62982-23e2-4114-b7f9-19ffb4d74227}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>idRestoreGame</name>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{47a844fa-1903-4fc3-9458-4061e4d58055}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>idRestoreGame( idFile *savefile )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ab5823f7-e269-4f0c-9678-af37ffa4bd7b}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>~idRestoreGame()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{3646f00c-f8e9-4260-aac6-8f41c597ddc6}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					CreateObjects( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a3248a59-80de-4aa0-8ec0-753ce18c1ede}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					RestoreObjects( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{3722cc2d-53a0-4334-b49b-9f6bb5ae57e3}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					DeleteObjects( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b10518f8-3f7f-420d-9916-ffd2675ee98d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					Error( const char *fmt, ... ) id_attribute((format(printf,2,3)))</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{fd42cde0-631a-4e48-815c-50f44ad09d0a}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					Read( void *buffer, int len )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c362df28-9cbd-4214-b532-652f32f2e11c}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadInt( int &amp;value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{0918e8ce-7973-411f-b479-2d0ecb437e50}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadJoint( jointHandle_t &amp;value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ee286b10-6e90-4255-a9b0-9ead582a745b}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadShort( short &amp;value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{df8588c1-85d9-4050-b84f-27148f1efac8}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadByte( byte &amp;value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{45f10b2d-a3bb-43a1-80a7-342093fa18ca}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadSignedChar( signed char &amp;value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{5ee6dd6b-ccbc-44e6-b39d-4e0ca215435b}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadFloat( float &amp;value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4357c835-caed-4b71-bd7d-d2fccdbbd0a5}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadBool( bool &amp;value )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{cd596fe9-4d72-49f2-840a-3e3f98cdbd55}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadString( idStr &amp;string )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7e319db5-3829-41e3-84a1-6a4375a9593a}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadVec2( idVec2 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1cc1ca8a-e4c1-4743-8da4-286c61b02e68}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadVec3( idVec3 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{34323da9-4740-409b-b65a-d7254d725075}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadVec4( idVec4 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{99ab0772-c5f8-41c5-99f8-e5ff137c9ae7}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadVec6( idVec6 &amp;vec )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{d7692cf6-91ec-4265-b194-9f3940038bdc}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadWinding( idWinding &amp;winding )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{72ad2cb3-9893-440e-9783-b99be4ca242e}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadBounds( idBounds &amp;bounds )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{86cac6e6-f839-4555-b65e-4472dc9a15fe}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadMat3( idMat3 &amp;mat )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e7298398-c56e-47f9-9981-4a1ed06dcfa5}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadAngles( idAngles &amp;angles )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{3b53366a-d545-4f02-8e18-acecc00f147d}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadObject( idClass *&amp;obj )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{cb39b5eb-0c4c-4d59-9788-1dc5e2fc1572}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadStaticObject( idClass &amp;obj )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{aeaa1e2f-f2d4-47da-a067-816c05a31241}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadDict( idDict *dict )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e6e2596e-0ee4-47e6-97f3-086f829ee6dc}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadMaterial( const idMaterial *&amp;material )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{79bfa4a8-f8a7-41f1-a8ce-43fe25467216}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadSkin( const idDeclSkin *&amp;skin )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{dad050c2-01e8-49d9-9c6c-c9737badeff3}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadParticle( const idDeclParticle *&amp;particle )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{fac951a0-9c3d-4ada-b49d-150b6f1aef13}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadFX( const idDeclFX *&amp;fx )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c35deb91-8a6e-46f8-8cad-da9d1a121e1a}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadSoundShader( const idSoundShader *&amp;shader )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{b6dae2e7-306c-42d2-b22f-65056a3143a6}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadModelDef( const idDeclModelDef *&amp;modelDef )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4844e145-655c-4729-b078-727558206a77}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadModel( idRenderModel *&amp;model )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1f51d778-414b-4365-a30d-817c4fad6f32}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadUserInterface( idUserInterface *&amp;ui )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4eff02d6-82ff-44f0-8946-6a401cc53896}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadRenderEntity( renderEntity_t &amp;renderEntity )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1774bad3-e2da-4d29-8a5e-3061b4b17532}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadRenderLight( renderLight_t &amp;renderLight )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{c00be1bc-4b1d-4b30-908b-f9d0b97219d9}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadRefSound( refSound_t &amp;refSound )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{db0e6c5f-fab5-4dd2-9a00-cdb4030b2615}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadRenderView( renderView_t &amp;view )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{7f656176-f799-4763-8d90-d5617d6a6818}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadUsercmd( usercmd_t &amp;usercmd )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{e84b4252-031f-4533-ae8e-8b8756706a68}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadContactInfo( contactInfo_t &amp;contactInfo )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{8e6a9667-e689-4827-bc6c-0519f40b53d4}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadTrace( trace_t &amp;trace )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{18102b6b-31cc-4c04-9009-464aabc854fb}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadTraceModel( idTraceModel &amp;trace )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{27769604-34bc-4f27-99aa-a491b03dec2b}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadClipModel( idClipModel *&amp;clipModel )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{a4126fe0-f3ae-4070-be7f-9e948340be52}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadSoundCommands( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{cdf6be1e-daa8-49b2-b856-affd2b5ab842}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>void					ReadBuildNumber( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{20ae48c9-1690-43ed-b459-391501dcc6ce}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>int						GetBuildNumber( void )</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{07045473-6252-4950-8824-f0375a7b2656}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>buildNumber : int</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{1c9fee30-023a-4d59-9fd6-7abcecdcdb45}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>file : idFIle*</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{4db53aab-0a0d-48ef-bd06-b5dfc0b3cc63}</uid>
+                    <visibility>3</visibility>
+                    <type>1</type>
+                    <declaration>objects : idList&lt;idClass *&gt;</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{20ef9ea2-c56f-4f07-bd55-40042a157056}</uid>
+                    <visibility>3</visibility>
+                    <type>2</type>
+                    <declaration>void					CallRestore_r( const idTypeInfo *cls, idClass *obj )</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+          </qlist>
+         </handles>
+        </handles>
+       </children>
+      </MObject>
+     </base-MObject>
+    </MPackage>
+   </instance>
+  </root-package>
+ </project>
+</qmt>
