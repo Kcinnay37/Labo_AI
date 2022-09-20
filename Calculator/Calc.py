@@ -16,9 +16,8 @@ class Calc:
 
     comma:bool = False
     haveNumber:bool = False
-    newNumber:bool = False
-    isEqual:bool = True
-    addOpResetUI = True
+    setEqual:bool = False
+    takeOld:bool = False
 
     currText:str
     currOp:str
@@ -47,11 +46,16 @@ class Calc:
             self.currText = text
             self.haveNumber = True
 
-        self.newNumber = True
         self.SetText(ui)
+
+        self.currNumber = float(self.currText)
+        self.takeOld = False
 
     #prend le text courant de la calculatrice et le fais afficher
     def SetText(self, ui:Ui_MainWindow):
+        if self.currText[len(self.currText) - 1] == '0' and self.currText[len(self.currText) - 2] == '.':
+            self.currText = self.currText[:len(self.currText) - 2]
+
         ui.Text.setText(self.currText)
 
     #change le signe de chiffre du text afficher
@@ -65,6 +69,8 @@ class Calc:
             self.currText = "-" + self.currText[0:]
 
         self.SetText(ui)
+
+        self.currNumber = float(self.currText)
 
     #efface un caractere
     def Erase(self, ui:Ui_MainWindow):
@@ -83,6 +89,8 @@ class Calc:
 
             self.SetText(ui)
 
+            self.currNumber = float(self.currText)
+
     #reset la parti courant de la calculatrice
     def CurrReset(self, ui:Ui_MainWindow):
         self.currNumber = 0
@@ -95,65 +103,66 @@ class Calc:
     def Reset(self, ui:Ui_MainWindow):
         self.currOp = ""
         self.oldNumber = 0
+        self.setEqual = False
+        self.takeOld = False
         self.CurrReset(ui)
-        self.isEqual = True
 
     #effectu le calcule demander et l'affiche
     def Equal(self, ui:Ui_MainWindow):
-        self.isEqual = True
-        self.haveNumber = False
+        if self.currOp == "÷" or self.currOp == "1/x":
+            dontWorks:bool = False
+            if self.currOp == "1/x":
+                if self.takeOld:
+                    if self.oldNumber == 0:
+                        dontWorks = True
+                else:
+                    if self.currNumber == 0:
+                        dontWorks = True
+            else:
+                if self.currNumber == 0:
+                    dontWorks = True
+            if dontWorks:
+                self.Reset(ui)
+                self.currText = "impossible de diviser par 0"
+                self.SetText(ui)
+                return
 
-        if self.currOp == "":
-            return
-
-        if self.newNumber:
-            self.currNumber = float(self.currText)
-            self.newNumber = False
-
-        if (self.currOp == "÷" or self.currOp == "1/x") and self.currNumber == 0:
-            self.Reset(ui)
-            self.currText = "impossible de diviser par 0"
+        if self.currOp == "sqrt" or self.currOp == "x2" or self.currOp == "1/x":
+            if self.takeOld:
+                self.oldNumber = self.ops[self.currOp](self.oldNumber)
+                self.currText = str(self.oldNumber)
+            else:
+                self.currNumber = self.ops[self.currOp](self.currNumber)
+                self.currText = str(self.currNumber)
             self.SetText(ui)
             return
-
-        nb:float = 0
-
-        if self.currOp == "1/x" or self.currOp == "x2" or self.currOp == "sqrt":
-            nb = self.ops[self.currOp](self.currNumber)
-            self.currOp = ""
         else:
-            nb = self.ops[self.currOp](self.oldNumber, self.currNumber)
-            self.oldNumber = nb
-
-        self.currText = str(nb)
-
-        if self.currText[len(self.currText) - 2] == '.' and self.currText[len(self.currText) - 1] == '0':
-            self.currText = self.currText[:len(self.currText) - 2]
-
-        if nb == 0:
-            self.haveNumber = False
-
-        self.SetText(ui)
+            self.oldNumber = self.ops[self.currOp](self.oldNumber, self.currNumber)
+            self.currText = str(self.oldNumber)
+            self.SetText(ui)
+            self.takeOld = True
+        self.haveNumber = False
+        self.setEqual = False
 
     #ajoute un opperateur dans l'opperateur courant
     def AddOp(self, currOp:str, ui:Ui_MainWindow):
-        if self.haveNumber:
-            self.addOpResetUI = True
-        if not self.isEqual and self.haveNumber:
-            self.Equal(ui)
-            self.addOpResetUI = False
-            self.haveNumber = False
-        self.isEqual = False
-
+        temp:str = self.currOp
         self.currOp = currOp
-        self.oldNumber = float(self.currText)
-        self.newNumber = True
-
-        if self.currOp == "1/x" or self.currOp == "x2" or self.currOp == "sqrt":
+        if self.currOp == "sqrt" or self.currOp == "x2" or self.currOp == "1/x":
             self.Equal(ui)
+            self.currOp = temp
             return
-
-        if self.addOpResetUI:
+        elif self.haveNumber:
+            if self.setEqual:
+                self.currOp = temp
+                self.Equal(ui)
+                self.currOp = currOp
+                self.setEqual = True
+                return
+            self.oldNumber = self.currNumber
             self.CurrReset(ui)
+        self.setEqual = True
+
+
 
 
