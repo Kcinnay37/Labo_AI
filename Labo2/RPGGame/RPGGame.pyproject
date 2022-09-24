@@ -1,3 +1,3 @@
 {
-    "files": ["Player.py","Logic.py","GameObject.py","Actor.py","Engine.py","main.py","Enemy.py","Level.py"]
+    "files": ["Logic.py","main.py","Enemy.py","GameObject.py","Engine.py","Level.py","Actor.py","Player.py","classdiagrame.qmodel"]
 }
